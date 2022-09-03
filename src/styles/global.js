@@ -36,7 +36,7 @@ export const GlobalStyle = createGlobalStyle`
     text-align: center;
     border: 2px solid transparent;
     padding: 0.5rem;
-    
+
     :hover {
       padding: 0.5rem;
       box-shadow: 0px 0px 25px rgb(255, 234, 0);

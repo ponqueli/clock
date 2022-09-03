@@ -24,9 +24,5 @@ export const SwitchIcon = styled.img`
 `;
 
 export const ButtonSwitch = styled.div`
-  margin-bottom: 2rem;
-
-  @media (max-width: 360px) {
-    margin-bottom: 5rem;
-  }
+  margin-top: 1rem;
 `;

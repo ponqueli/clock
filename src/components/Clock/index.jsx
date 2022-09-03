@@ -29,8 +29,6 @@ const Clock = ({ toggleTheme, colors, title }) => {
     <Container
       colors={colors}
     >
-      <p> {format(time, 'PPPP')}</p>
-      <h1> {format(time, 'hh:mm:ss a')} </h1>
       <ButtonSwitch>
         <Switch
           className="react-switch"
@@ -44,6 +42,8 @@ const Clock = ({ toggleTheme, colors, title }) => {
           activeBoxShadow="0px 0px 0px 10px rgba(255, 234, 0, 0.20)"
         />
       </ButtonSwitch>
+      <p> {format(time, 'PPPP')}</p>
+      <h1> {format(time, 'hh:mm:ss a')} </h1>
     </Container>
   )
 }
