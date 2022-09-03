@@ -31,10 +31,17 @@ export const GlobalStyle = createGlobalStyle`
 
   p {
     font-size: 2rem;
-    line-height: 2rem;
     margin-bottom: auto;
     margin-top: 2rem;
     text-align: center;
+    border: 2px solid transparent;
+    padding: 0.5rem;
+    :hover {
+      padding: 0.5rem;
+      box-shadow: 0px 0px 25px rgb(255, 234, 0);
+      border-radius: 1.125rem;
+      border: 2px solid rgb(255, 234, 0);
+    }
 
     @media (max-width: 421px) {
       font-size: 1.8rem;
@@ -51,6 +58,14 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 15rem;
     text-align: center;
     color: ${({ theme }) => theme.colors.text_primary};
+
+    :hover {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      box-shadow: 0px 0px 25px rgb(255, 234, 0);
+      border-radius: 1.125rem;
+      border: 2px solid rgb(255, 234, 0);
+    }
 
     @media (max-width: 1378px) {
       font-size: 12rem;
@@ -95,7 +110,6 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width:  320px) {
       font-size: 6rem;
     }
-
   }
 `;
 

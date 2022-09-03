@@ -2,8 +2,10 @@ const lightTheme = {
   title: 'light',
 
   colors: {
-    onPrimary: '#FFFFFF',
-    text_primary: '#BBBBBB',
+    onPrimary: '#474748',
+    background: '#FFFFFF',
+    backgroundSwitch: '#474748',
+    text_primary: '#474748',
   }
 }
 
