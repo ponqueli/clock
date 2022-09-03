@@ -34,13 +34,68 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 2rem;
     margin-bottom: auto;
     margin-top: 2rem;
+    text-align: center;
+
+    @media (max-width: 421px) {
+      font-size: 1.8rem;
+    }
+
+    @media (max-width: 389px) {
+      font-size: 1.5rem;
+    }
   }
 
   h1 {
+    text-align: center;
     margin-bottom: auto;
     font-size: 15rem;
     text-align: center;
     color: ${({ theme }) => theme.colors.text_primary};
+
+    @media (max-width: 1378px) {
+      font-size: 12rem;
+    }
+
+    @media (max-width: 1103px) {
+      font-size: 11rem;
+    }
+
+    @media (max-width: 958px) {
+      font-size: 10rem;
+    }
+
+    @media (max-width: 856px) {
+      font-size: 9rem;
+    }
+
+    @media (max-width: 801px) {
+      font-size: 9rem;
+    }
+
+    @media (max-width: 769px) {
+      font-size: 8rem;
+    }
+
+    @media (max-width:  652px) {
+      font-size: 7rem;
+    }
+
+    @media (max-width: 561px) {
+      font-size: 6rem;
+    }
+
+    @media (max-width:  475px) {
+      font-size: 5rem;
+    }
+
+    @media (max-width: 421px) {
+      font-size: 4rem;
+    }
+
+    @media (max-width:  320px) {
+      font-size: 6rem;
+    }
+
   }
 `;
 
